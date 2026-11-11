@@ -1,0 +1,35 @@
+{
+  "name": "cm-pgrp-server",
+  "version": "1.0.0",
+  "description": "Chief Minister's Public Grievance Redressal Portal - Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/database/seed.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "kerala",
+    "cmo",
+    "grievance",
+    "redressal",
+    "ai",
+    "express"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "better-sqlite3": "^11.8.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

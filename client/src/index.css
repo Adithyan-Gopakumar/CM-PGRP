@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-800 bg-slate-50 antialiased selection:bg-emerald-100 selection:text-emerald-900;
+  }
+}
+
+.kerala-gradient {
+  background: linear-gradient(135deg, #034526 0%, #056839 50%, #087f46 100%);
+}
+
+.gov-card {
+  @apply bg-white rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all duration-200;
+}

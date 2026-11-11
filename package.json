@@ -1,0 +1,26 @@
+{
+  "name": "cm-kerala-pgrp",
+  "version": "1.0.0",
+  "description": "Chief Minister's Public Grievance Redressal Portal (CM-PGRP) - Government of Kerala Recruitment Assessment Prototype",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install && npm --prefix server run seed && npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build",
+    "start": "node server/src/index.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "kerala",
+    "cmo",
+    "grievance-redressal",
+    "ai-agent",
+    "full-stack",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "WhiteMatrix Recruitment Candidate",
+  "license": "MIT"
+}
