@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Chief Minister's Public Grievance Redressal Portal (CM-PGRP) - Government of Kerala Recruitment Assessment Prototype",
   "scripts": {
-    "setup": "npm --prefix server install && npm --prefix client install && npm --prefix server run seed && npm --prefix client run build",
+    "setup": "npm --prefix server install && npm --prefix client install && npx --prefix client vite build && npm --prefix server run seed",
     "seed": "npm --prefix server run seed",
     "test": "npm --prefix server test",
     "build": "npm --prefix client run build",
