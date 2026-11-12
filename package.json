@@ -21,6 +21,5 @@
     "express",
     "sqlite"
   ],
-  "author": "WhiteMatrix Recruitment Candidate",
-  "license": "MIT"
+  "author": "Adithyan Gopakumar",
 }
